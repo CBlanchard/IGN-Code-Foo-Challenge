@@ -1,0 +1,31 @@
+1) First, we need to find the diameter of a penny (19.05mm) and divide it by 2, giving us the radius (9.525mm).  From there, we find the surface area of one side of a penny , as only one side will be touching the bridge:
+
+A=(3.14)(9.525sq)
+A=(3.14)(90.725625)
+A=284.8784625mm sq
+
+Now that we have that determined, we will need to find the surface area of the golden gate bridge.  This is where things get a little tricky.  I cannot find the surface area of the bridge anywhere.  However, I have written the following program in C++ to determine how many pennies it would take to cover any object:
+
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+	float pArea = 284.8784625; //area of side of penny
+	float oArea; //other object area
+
+	// input the object surface area
+	cout << "Enter the surface area of the object in meters squared" << endl;
+	cin >> oArea;
+	cout << endl;
+
+	// determine the number of pennies it would take to cover the object
+	int numPennies = int(oArea) / int((pArea * 1000));
+
+	//display results
+	cout << "It would take " << numPennies << " pennies to cover the object." << endl;
+	system("pause");
+}
+
+So even though I don't know the surface area of the bridge, I can determine the number of pennies it would take to cover any object, once you know the surface area.
