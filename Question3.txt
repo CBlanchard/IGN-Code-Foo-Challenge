@@ -1,0 +1,3 @@
+Ok, for this one, all the research I did made no sense to me.  My skills have not developed that far.  However I would be able to figure it out by the end of the internship.  However, I have added my slot machine game to the git under slots.zip, as well as the source code.  Please note this was developed in DarkGDK and needs the Direct X 9.0c SDK, found here:
+
+http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=3021d52b-514e-41d3-ad02-438a3ba730ba
